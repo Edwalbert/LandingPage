@@ -221,11 +221,18 @@ strong {
 }
 
 footer {
-    padding: 4rem;
     display: flex;
+    padding: 4rem;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     align-items: center
+}
+
+
+footer a {
+    
+    text-decoration: none;
+    margin-left: 1rem;
 }
 
 footer>div {
