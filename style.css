@@ -16,6 +16,22 @@
     --cyan1: #70e3ea;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dark4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark4);
+}
+
 body {
     background-color: var(--dark1);
     height: 100vh;
@@ -209,11 +225,37 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    align-items: center
 }
 
-footer > div {
+footer>div {
     display: flex;
     justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+#my-projects-list {
+    display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-projects-list a {
+    text-decoration: none;
+    color: var(--dark3);
+}
+
+#my-projects-list a:hover {
+    color: var(--dark5);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.img-profile,
+.img-who-am-i {
+    box-shadow: 1px 1px 1px 1px var(--cyan1);
 }
