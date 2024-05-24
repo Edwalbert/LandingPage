@@ -109,7 +109,7 @@ main {
 }
 
 section {
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .first-section {
@@ -125,12 +125,11 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    min-width: 300px;
-
+    min-width: 200px;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--white);
     letter-spacing: 8px;
 }
